@@ -1,0 +1,84 @@
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .heroTextAria {
+    width: 100%;
+    /* padding: 55px; */
+  }
+
+  .myTopPhoto {
+    display: flex;
+
+    background-color: #5b7402;
+    box-shadow: 0 0 5px #423463;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+  }
+
+  .heroTextAria-M-P {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .heroHello {
+    color: #423463;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+  }
+
+  .heroMyName {
+    color: #423463;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .HeroIamDeveloper {
+    color: #f5b711;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .heroPragraph {
+    line-height: 1.5em;
+    margin-bottom: 15px;
+
+    color: #423463;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 0;
+    margin-bottom: 2rem;
+  }
+
+  .heroContactBtn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #f3b90b;
+    border-radius: 5px;
+    box-shadow: #423463;
+    padding: 20px 25px 20px 25px;
+  }
+
+  .heroPhotoAria {
+    display: none;
+  }
+
+  .bg-myHeroMeinPhoto {
+    display: none;
+  }
+
+  .bg-of-myTopPhoto {
+    height: 400px;
+  }
+
+  .myHeroMeinPhoto {
+    display: none;
+  }
+}

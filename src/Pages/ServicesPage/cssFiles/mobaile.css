@@ -1,0 +1,116 @@
+@media only screen and (min-width: 180px) and (max-width: 599px) {
+  .dev-Top-Titale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .Top-Titale-of-ServicesPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 15px 0px;
+
+    color: #b5adca;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .para11 {
+    padding: 0px;
+  }
+
+  .Paragraph-of-Services-page {
+    color: #ffff;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px#413362;
+    font-size: 1rem;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  #idHeroContactBtn {
+    animation-name: contact_main;
+    position: relative;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  .heroContactBtn-ServicesPage {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #7c5ef0;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+
+  .heroContactBtn-ServicesPage:hover {
+    background-color: #f3b90b;
+    color: black;
+    box-shadow: 0px 0px 4px 0px #f9c873;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+  .why-you-need-me {
+    padding: 0px;
+  }
+
+  .what-can-build {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .div-of-what-can-build {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10%;
+  }
+
+  .all-services-divbox {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Personal-Websites-box {
+    font-size: 1.1rem;
+    color: #c6dd72;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(56, 45, 30);
+    border-radius: 0px;
+    padding: 0;
+  }
+
+  .Personal-Websites {
+    color: #ffff;
+    background-color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .Personal-Websites:hover {
+    background-color: rgb(0, 0, 12);
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+}

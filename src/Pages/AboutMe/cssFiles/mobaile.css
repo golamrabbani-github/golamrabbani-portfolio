@@ -1,0 +1,295 @@
+@media (min-width: 180px) and (max-width: 489px) {
+  .aboutme-page-all-divs {
+    display: block;
+  }
+  .aboutme-page-name-and-adress-aria {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 0px;
+  }
+
+  .MeinPhoto-aboutMePage {
+    display: none;
+  }
+
+  .Name-Aria-AboutMePage {
+    width: 100%;
+    height: 40%;
+    padding: 15px;
+    margin: 0px 0px;
+    border-radius: 4px;
+    background-color: #d6d5e2;
+    box-shadow: 0 0 5px #413362;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .Name-Aria-AboutMePage:hover {
+    background-color: #ebeaf3;
+    box-shadow: 0 0 5px #413362;
+  }
+
+  .Name-Aria-AboutMePage h1 {
+    color: #413362;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #413362;
+  }
+
+  .Name-Aria-AboutMePage h2 {
+    color: #d45c0d;
+    font-size: 1.1rem;
+    margin-left: 0px;
+  }
+
+  .Name-Aria-AboutMePage h2 span {
+    color: #5b7402;
+    font-weight: 50;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  .importent-skill-in-dev {
+    width: 100%;
+    height: 55%;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 4px;
+    background-color: #d6d5e2;
+    box-shadow: 0 0 5px #413362;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .importent-skill-in-dev:hover {
+    background-color: #ebeaf3;
+    box-shadow: 0 0 5px #341d6b;
+  }
+
+  .importent-skill-in-dev h3 {
+    color: #d45c0d;
+    font-size: 1.2rem;
+    font-weight: 900;
+    border-bottom: 1px solid #413362;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .importent-skill-in-dev p {
+    font-size: 1rem;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #413362;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+  .skills-and-technology {
+    width: 100%;
+    height: 1300px;
+    padding: 20px 10px;
+    background-color: #fafafc;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill-box {
+    height: 30%;
+    width: 100%;
+    background-color: #cdc6e5;
+    margin: 0px 0px 20px 0px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 3px #341d6b;
+  }
+
+  .skils-box1-content {
+    height: 47%;
+  }
+  .skils-box1-content h1 {
+    font-size: 1.3rem;
+    color: #d45c0d;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  .skils-box1-content p {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skils-box1-content p span {
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #cdc6e5;
+    background-color: #341d6b;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .skils-box1-content h2 {
+    font-size: 1.7rem;
+    color: #d45c0d;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .skils-box1-content h2 span {
+    padding: 7px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #cdc6e5;
+    background-color: #341d6b;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .git-github-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 15px;
+  }
+
+  .git-github-logo #gitGithub {
+    display: none;
+    width: 120%;
+    border-radius: 10px;
+  }
+
+  #git-img {
+    display: none;
+  }
+
+  #github-img {
+    display: none;
+  }
+
+  .mern-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mern-img-div img {
+    width: 100%;
+  }
+
+  /*  */
+
+  .skils-box2-content {
+    height: 20%;
+  }
+  .skils-box2-content h1 {
+    font-size: 1.3rem;
+    color: #d45c0d;
+    font-weight: 900;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #5b7402;
+  }
+
+  .skils-box2-content h3 {
+    color: #341d6b;
+    font-size: 1rem;
+  }
+  .skils-box2-content h3 span {
+    color: #fafafc;
+    background-color: #341d6b;
+    border-radius: 5px;
+    line-height: 40px;
+    padding: 5px 10px;
+  }
+
+  .html-css-js-gihub-logo {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .html-js-div img {
+    width: 100%;
+    height: 180px;
+    padding-bottom: 20px;
+  }
+
+  /*  */
+
+  .skils-box3-content {
+    height: 30%;
+  }
+  .skils-box3-content h1 {
+    font-size: 1.2rem;
+    color: #d45c0d;
+    font-weight: 900;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #5b7402;
+  }
+
+  .skils-box3-content h3 {
+    color: #341d6b;
+    font-size: 1rem;
+  }
+  .skils-box3-content h3 span {
+    color: #fafafc;
+    background-color: #341d6b;
+    border-radius: 5px;
+    line-height: 40px;
+    padding: 5px 10px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+
+  .pra-aoutPage {
+    padding: 5%;
+    margin-top: 0px;
+    background-color: #413362;
+    box-shadow: 0 0 0px #413362;
+  }
+  .pra-aoutPage:hover {
+    background-color: #3e2d64;
+    box-shadow: 0 0 5px #413362;
+  }
+
+  .pra-aoutPage h1 {
+    color: #d45c0d;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .pra-aoutPage P {
+    color: #c6dd72;
+    font-size: 1rem;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}

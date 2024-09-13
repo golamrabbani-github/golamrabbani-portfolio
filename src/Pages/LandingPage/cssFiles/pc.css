@@ -1,0 +1,159 @@
+@media only screen and (min-width: 900px) and (max-width: 1399px) {
+  /* HERO ARIA */
+
+  .heroAria {
+    width: 100%;
+    display: flex;
+  }
+
+  .div-of-home-myTopPhoto {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroPhotoAria {
+    width: 40%;
+    margin: 25px 30px 0px 0px;
+  }
+
+  .myHeroMeinPhoto {
+    width: 100%;
+    box-shadow: 0 0 5px #423463;
+    border-radius: 5px;
+
+    --f: 1.15; /* the scale factor */
+
+    clip-path: inset(0);
+    transition: 0.4s;
+  }
+  .myHeroMeinPhoto:hover {
+    clip-path: inset(calc((1 - 1 / var(--f)) * 50%));
+    scale: var(--f);
+  }
+
+  .myTopPhoto {
+    display: none;
+  }
+
+  .homepage-social-media-icons {
+    height: 80px;
+    width: 100%;
+    background-color: #423463;
+    box-shadow: 0 0 5px #423463;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .homepage-icon {
+    font-size: 2rem;
+    color: #7c5;
+  }
+  .homepage-icon:hover {
+    font-size: 2.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  /*   HERO TEXT ARIA    */
+
+  .heroTextAria {
+    width: 60%;
+    background-color: #ebeaf3;
+    box-shadow: 0 0 2px #423463;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+
+  .heroTextAria-M-P {
+    width: 100%;
+    padding: 10% 10% 1% 10%;
+  }
+
+  .heroHello {
+    /* color: #423463; */
+    color: #f5b711;
+
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .heroMyName {
+    color: #423463;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0px 30px 0px;
+  }
+
+  .HeroIamDeveloper {
+    color: #f5b711;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    display: none;
+  }
+
+  .heroPragraph {
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 15px;
+
+    color: #423463;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  #iHeroContactBtn {
+    animation-name: contact_main;
+    position: relative;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  .heroContactBtn {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #f3b90b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #262626;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    border: none;
+    margin: 5px;
+  }
+
+  .heroContactBtn:hover {
+    background-color: #262626;
+    color: #ffffff;
+    transform: scale(1);
+    transition: 0.2s;
+  }
+
+  .resume-later-contact {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

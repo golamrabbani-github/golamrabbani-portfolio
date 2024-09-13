@@ -1,0 +1,331 @@
+.aboutme-page-name-and-adress-aria {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #e2daf3;
+  border-radius: 5px 5px 0 0;
+  background-color: #fafafc;
+}
+
+.MeinPhoto-aboutMePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #413362;
+}
+
+.aboutMe-MeinPhoto {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+
+  --f: 1.15; /* the scale factor */
+  clip-path: inset(0);
+  transition: 0.4s;
+}
+.aboutMe-MeinPhoto:hover {
+  clip-path: inset(calc((1 - 1 / var(--f)) * 50%));
+  scale: var(--f);
+}
+
+.Name-Aria-AboutMePage {
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: #d6d5e2;
+  box-shadow: 0 0 10px #413362;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.Name-Aria-AboutMePage:hover {
+  background-color: #ebeaf3;
+  box-shadow: 0 0 5px #413362;
+}
+
+.Name-Aria-AboutMePage h1 {
+  color: #413362;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #413362;
+}
+
+.Name-Aria-AboutMePage h2 {
+  color: #d45c0d;
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+.Name-Aria-AboutMePage h2 span {
+  color: #5b7402;
+  font-weight: 50;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  */
+/*  */
+/*  */
+
+.importent-skill-in-dev {
+  width: 40%;
+  height: 100%;
+  padding: 30px;
+  margin-left: 10px;
+  border-radius: 4px;
+  background-color: #d6d5e2;
+  box-shadow: 0 0 10px #413362;
+
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.importent-skill-in-dev:hover {
+  background-color: #ebeaf3;
+  box-shadow: 0 0 5px #341d6b;
+}
+
+.importent-skill-in-dev h3 {
+  color: #413362;
+  font-size: 1.9rem;
+  font-weight: 900;
+  border-bottom: 1px solid #413362;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.importent-skill-in-dev p {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #413362;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.skills-and-technology {
+  width: 100%;
+  height: 500px;
+  background-color: #fafafc;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-box {
+  height: 85%;
+  width: 45%;
+  background-color: #cdc6e5;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.html-css-js-gihub-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.html-js-div img {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.git-github-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 70px 20px;
+  margin-top: -20px;
+}
+
+.git-github-logo #gitGithub {
+  display: none;
+}
+
+#git-img {
+  mix-blend-mode: multiply;
+
+  height: 55px;
+  margin-bottom: 5px;
+}
+
+#github-img {
+  mix-blend-mode: multiply;
+
+  height: 55px;
+  margin-top: 5px;
+}
+
+/*  */
+/*  */
+
+.skils-box1-content h1 {
+  font-size: 1.8rem;
+  color: #d45c0d;
+  font-weight: 900;
+}
+
+.skils-box1-content p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skils-box1-content p span {
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #cdc6e5;
+  background-color: #341d6b;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skils-box1-content h2 {
+  font-size: 1.8rem;
+  color: #d45c0d;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.skils-box1-content h2 span {
+  padding: 7px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #cdc6e5;
+  background-color: #341d6b;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  */
+
+.skils-box2-content h1 {
+  font-size: 1.9rem;
+  color: #d45c0d;
+  font-weight: 900;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #5b7402;
+}
+
+.skils-box2-content h3 {
+  color: #341d6b;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.skils-box2-content h3 span {
+  color: #fafafc;
+  background-color: #341d6b;
+  border-radius: 5px;
+  line-height: 40px;
+  padding: 5px 10px;
+}
+
+.skils-box2-content img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.mern-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mern-img-div #mernimg1 {
+  width: 50%;
+}
+.mern-img-div #mernimg2 {
+  display: none;
+}
+
+/*  */
+
+.skils-box3-content h1 {
+  font-size: 1.9rem;
+  color: #d45c0d;
+  font-weight: 900;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #5b7402;
+}
+
+.skils-box3-content h3 {
+  color: #341d6b;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.skils-box3-content h3 span {
+  color: #fafafc;
+  background-color: #341d6b;
+  border-radius: 5px;
+  line-height: 40px;
+  padding: 5px 10px;
+}
+
+.skils-box3-content img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.mern-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mern-img-div #mernimg1 {
+  width: 50%;
+}
+.mern-img-div #mernimg2 {
+  display: none;
+}
+
+/*  */
+/*  */
+/*  */
+
+.pra-aoutPage {
+  padding: 3%;
+  background-color: #3e2d64;
+}
+
+.pra-aoutPage h1 {
+  color: #d45c0d;
+  font-size: 2rem;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.pra-aoutPage P {
+  color: #ebeaf3;
+  font-size: 1.4rem;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}

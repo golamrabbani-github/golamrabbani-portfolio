@@ -1,0 +1,61 @@
+@media only screen and (min-width: 2000px) and (max-width: 3000px) {
+  body {
+    background-color: #acacbb;
+    padding: 5% 8%;
+    width: 1800px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  .navber {
+    height: 85px;
+    width: 100%;
+    background-color: #413363;
+    box-shadow: 0 0 15px #1d1041;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .navber .navber-responsive-menu-icon {
+    font-size: 1.7rem;
+    color: bisque;
+    cursor: pointer;
+    display: none;
+  }
+
+  .navber-pages-buttons.active {
+    color: #fff;
+    background-color: #1d1041;
+    border-radius: 5px;
+  }
+
+  .nav-div1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(215, 250, 225);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Verdana, sans-serif;
+  }
+
+  .nav-div2 {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navber-pages-buttons {
+    margin: 2px;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .navber-pages-buttons:hover {
+    color: #000000;
+    background-color: #74748c;
+    border-radius: 5px;
+  }
+}

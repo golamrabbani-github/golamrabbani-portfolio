@@ -1,0 +1,55 @@
+@media only screen and (min-width: 400px) and (max-width: 799px) {
+  .navber {
+    height: 75px;
+    width: 100%;
+    background-color: #413363;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .navber .nav-div1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(215, 250, 225);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Verdana, sans-serif;
+  }
+
+  .navber .navber-responsive-menu-icon {
+    display: block !important; /* Force display block */
+    font-size: 2.5rem;
+  }
+  .navber-responsive-menu-icon {
+    font-size: 1.7rem;
+    color: bisque;
+    cursor: pointer;
+    display: none;
+  }
+
+  .navber .nav-div2 {
+    display: none; /* Hide menu by default in responsive mode */
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: black;
+    background-color: #ebeaf3;
+    box-shadow: 0 0 15px #423463;
+    border-radius: 5px;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: -800px;
+    right: 0;
+    z-index: 10;
+    transition: all 0.3s;
+  }
+
+  .nav-div2.active {
+    display: flex; /* Show menu when active */
+    top: 130px;
+    right: 83px;
+    transition: all 0.3s ease-in;
+  }
+}
